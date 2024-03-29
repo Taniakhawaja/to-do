@@ -8,6 +8,7 @@ function createTodoItem(todoText) {
     li.innerHTML = `
         <input type="checkbox">
         <span>${todoText}</span>
+        <button class="save-btn">Save</button>
         <button class="remove-btn">Remove</button>
     `;
     todoList.appendChild(li);
